@@ -1,11 +1,17 @@
 <html>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/destaque.css">
+
+    <form class="barra-pesquisa"  action="/search" method="get">
+    <input class="pesquisa" type="text" name="query" placeholder="Digite sua pesquisa">
+     <button class="botton-pesquisa" type="submit">Buscar</button>
+</form>
+
     <header>
       <nav class="nav-bar">
 
       <div class="logo"> 
-        <a href="index.php"><img src="img/eu.jpg" alt=""></a>
+        <a href="index.php"><img src="img/logo.jpg" alt=""></a>
         </div>
 
         <div class="nav-list">
@@ -16,7 +22,7 @@
 
          <div class="login-button">
              <button>
-            <a href="#">LOGIN</a>
+            <a href="login.php">LOGIN</a>
             </button>
         </div>
     </div>

@@ -3,7 +3,10 @@
     <link rel="stylesheet" href="css/form.css">
     <header>
       <nav class="nav-bar">
-    
+
+      <div class="logo"> 
+        <a href="index.php"><img src="img/logo.jpg" alt=""></a>
+        </div>
 
         <div class="nav-list">
     <?php
@@ -11,16 +14,12 @@
     ?>
     </div>
         
-      <div class="login">
-      <div class="logo"> 
-        <a href="index.php"><img src="img/eu.jpg" alt=""></a>
-        </div>
+      
         <div class="login-button">
              <button>
-            <a href="#">LOGIN</a>
+            <a href="login.php">LOGIN</a>
             </button>
         </div>
-    </div>
          
     </div>
 
@@ -39,7 +38,7 @@
 
     <div class="login-button">
              <button>
-            <a href="#">LOGIN</a>
+            <a href="login.php">LOGIN</a>
             </button>
     </div>
 
@@ -57,7 +56,7 @@
             <input type="text" name="name" placeholder="Seu nome">
             <input type="email" name="email" placeholder="Seu E-mail">
             <input type="text" name="subject" placeholder="Assunto">
-
+ 
             <textarea name="message" placeholder="Digite sua mensagem"></textarea>
 
             <button type="submit">Enviar</button>
